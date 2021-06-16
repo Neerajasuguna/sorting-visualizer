@@ -112,36 +112,4 @@ function create_bars()
     });
 
 
-    // // Quick sort button
-    // quick.addEventListener("click",async function(){
-    //   this.classList.add("selected");
-    //   for(var i=0;i<button.length;i++)
-    //   button[i].disabled=true,button[i].style.pointerEvents = "none",button[i].classList.add("unselected");
-    //   arr_size.disabled=true;
-    //   speed.disabled=true;
-    //   this.classList.remove("unselected");
-    //   await quick_sort();
-    //   for(var i=0;i<button.length;i++)
-    //   button[i].disabled=false,button[i].style.pointerEvents = "auto",button[i].classList.remove("unselected");
-    //   arr_size.disabled=false;  
-    //   speed.disabled=false;
-    //   this.classList.remove("selected");
-    // });
-
-
-    // // Merge sort button
-    // merge.addEventListener("click",async function(){
-    //   this.classList.add("selected");
-    //   var no_of_bar=arr_size.value;
-    //   for(var i=0;i<button.length;i++)
-    //   button[i].disabled=true,button[i].style.pointerEvents = "none",button[i].classList.add("unselected");
-    //   this.classList.remove("unselected");
-    //   arr_size.disabled=true; 
-    //   speed.disabled=true;
-    //   await merge_sort(0,no_of_bar-1);
-    //    for(var i=0;i<button.length;i++)
-    //   button[i].disabled=false,button[i].style.pointerEvents = "auto",button[i].classList.remove("unselected");
-    //   arr_size.disabled=false;
-    //   speed.disabled=false;
-    //   this.classList.remove("selected");
-    // });
+    
